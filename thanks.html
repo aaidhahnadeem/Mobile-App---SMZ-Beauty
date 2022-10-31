@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head
+         content must come *after* these tags -->
+    <title>Thank You</title>
+        <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/solid.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/mystyles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+  <body>
+
+          <!-- Main component for a primary marketing message or call to action -->
+
+        <div class="logo">
+		<a href="home.html"><img src="img/logo.png" height=auto width=90></a>
+		</div>
+        <div class="thankyou-page">
+    <div class="_header">
+        
+        <h1>Thank You!</h1>
+    </div>
+    <div class="_body">
+        <div class="_box">
+		<img src="img/thanks.png" style="height: 250px; align:middle;"/>
+            <h2>
+                <strong>Please check your email</strong> for details about your booking.
+            </h2>
+            <p>
+                Thanks a bunch for booking with us. It means a lot to us! We look forward to hosting you at SMZ Beauty. Thanks for being you.
+            </p>
+        </div>
+    </div>
+    <div class="_footer">
+        <p>Having trouble? <a href="contact.html">Contact us</a> </p>
+        <a class="btn" href="home.html">Back to homepage</a>
+    </div>
+</div>
+  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      //Carousel Code
+      $(document).ready(function(){
+        $('#mycarousel').carousel( {interval: 2000} );
+
+        $('#carousel-pause').click(function(){
+          $('#mycarousel').carousel('pause');
+        });
+
+        $('#carousel-play').click(function(){
+          $('#mycarousel').carousel('cycle');
+        });
+      });
+    </script>
+</body>
+
+</html>
